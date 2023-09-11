@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantment-overflow",
+  "version": "${version}",
+  "name": "Enchantment Overflow",
+  "description": "Allows you to use enchant (using /enchant or manually editing nbt) items over the max limit of 255.",
+  "authors": [
+    "ItsProfessional"
+  ],
+  "contact": {
+    "repo": "https://github.com/ItsProfessional/enchantment-overflow"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/enchantment-overflow/icon.png",
+  "environment": "*",
+  "mixins": [
+    "enchantment-overflow.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
