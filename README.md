@@ -1,3 +1,3 @@
 # Enchantment Overflow
 
-Allows you to use enchant (using /enchant or manually editing nbt) items over the max limit of 255.
+Allows you to use enchant (using /enchant or manually editing nbt) items up to the signed integer limit (2147483647)
